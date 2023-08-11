@@ -1,0 +1,17 @@
+.btn-tab{
+    margin-top: 30px;
+    width:175px;
+    height:48px;
+    border-radius: 4px;
+    color:#fff;
+    background-color: #447B02;
+    
+
+}
+.text-tab{
+    font-size: 11px;
+    width:202px;
+    height: 25px;
+    font-family: Mulish;
+    /* text-[11px] font-light font-Mulish leading-3 w-[202] h-[25] */
+}
