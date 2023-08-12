@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import Navbar from "./Components/Navbar/Navbar";
 import Hero from "/src/Components/Hero/Hero";
 import Products from "/src/Components/Products/products";
 
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <Hero />
       <Products />
 
