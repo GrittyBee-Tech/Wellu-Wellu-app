@@ -2,7 +2,7 @@
 import logo from "/src/assets/Icons/logo.png";
 const Navbar = () => {
     return (
-        <nav className="flex">
+        <nav className="flex container">
             <div className="logo">
                 <img src={logo} alt="Logo" />
             </div>

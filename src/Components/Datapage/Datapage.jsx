@@ -16,6 +16,16 @@ export const EnergyBooster = [
 
 ];
 
+export const Categories = [
+    { id: "1", Image: "/src/assets/Images/injury.png", treatment: "injury", },
+    { id: "2", Image: "/src/assets/Images/Energy1.png", treatment: "Energy Booster", },
+    { id: "3", Image: "/src/assets/Images/respiratory.png", treatment: "Respiratory disease", },
+    { id: "4", Image: "/src/assets/Images/STI.png", treatment: "Sexually Transmitted Infections", },
+    { id: "4", Image: "/src/assets/Images/Pain.png", treatment: "Pain Reliefs", },
+
+];
+
+
 
 
 
