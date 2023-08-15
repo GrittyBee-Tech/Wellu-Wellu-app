@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap'); */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer utilities {
+  *, *::after, *::before {
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+    -ms-overflow-style:none;
+  }
+.container-auto {
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+}
+
+
+.btn-tab{
+  margin-top: 30px;
+  width:175px;
+  height:48px;
+  border-radius: 4px;
+  color:#fff;
+  background-color: #447B02;
+  
+
+}
+.text-tab{
+  font-size: 11px;
+  width:202px;
+  height: 25px;
+  font-family: Mulish;
+  /* text-[11px] font-light font-Mulish leading-3 w-[202] h-[25] */
+}
