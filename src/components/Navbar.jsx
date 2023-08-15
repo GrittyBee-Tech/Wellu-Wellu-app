@@ -2,7 +2,7 @@ import CaretDownIcon from "./Icons/CaretDownIcon";
 import CartIcon from "./Icons/CartIcon";
 import LoveIcon from "./Icons/LoveIcon";
 import UserIcon from "./Icons/UserIcon";
-import Search from "./search";
+import Search from "./Search";
 import logo from "/src/assets/Icons/logo.png";
 const Navbar = () => {
     return (
