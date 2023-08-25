@@ -1,5 +1,6 @@
 
-import diabetics from '../assets/images/diabetes.png'
+// import diabetics from '../assets/images/diabetes.png'
+// import diabetics from '../assets/images/diabetes.png'
 import emphatic from '../assets/images/emphatic.png'
 import drip from '../assets/images/drip.png'
 import orak from '../assets/images/orak.png'
@@ -16,7 +17,7 @@ import pain from '../assets/images/pain.png'
 
 
 export const PainRelief = [
-    { id: "1", Image: diabetics, drug: "Diabetes Regulator Powder", price: "3000", },
+    { id: "1", Image: emphatic, drug: "Diabetes Regulator Powder", price: "3000", },
     { id: "2", Image: emphatic, drug: "Diabetes Regulator Powder", price: "3000", },
     { id: "3", Image: drip, drug: "Diabetes Regulator Powder", price: "3000", },
     { id: "4", Image: orak, drug: "Diabetes Regulator Powder", price: "3000", },
