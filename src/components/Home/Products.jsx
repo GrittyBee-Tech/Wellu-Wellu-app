@@ -2,7 +2,7 @@
 import stars from "../../assets/Icons/stars.png";
 // import { EnergyBooster, PainRelief } from "../../constant/data"; 
 import drip from '../../assets/images/drip.png'
-import orak from '../../assets/images/orak.png'
+import orak from '../../assets/images/oral.png'
 import energy from '../../assets/images/energy2.png'
 import energy_2 from '../../assets/images/energy3.png'
 import energy_3 from '../../assets/images/energy5.png'
