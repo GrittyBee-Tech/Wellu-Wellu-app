@@ -17,7 +17,7 @@ const Navbar = () => {
                     <li><a href="/services">About Us</a></li>
                     <li><a href="/contact">Contact Us</a></li>
                 </ul>
-                <div className="w-5/12">
+                <div className="w-4/12">
                 <Search />
                 </div>
                 <div className="flex items-center border gap-2 p-2">

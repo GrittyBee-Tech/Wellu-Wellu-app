@@ -3,10 +3,10 @@ import stars from "../../assets/Icons/stars.png";
 // import { EnergyBooster, PainRelief } from "../../constant/data"; 
 import drip from '../../assets/images/drip.png'
 import orak from '../../assets/images/oral.png'
-import energy from '../../assets/images/respiratory.png'
-import energy_2 from '../../assets/images/pain.png'
-import energy_3 from '../../assets/images/pain.png'
-import energy_4 from '../../assets/images/pain.png'
+// import energy from '../../assets/images/respiratory.png'
+// import energy_2 from '../../assets/images/pain.png'
+// import energy_3 from '../../assets/images/pain.png'
+// import energy_4 from '../../assets/images/pain.png'
 // import injury from '../assets/images/injury.png'
 // import energy_1 from '../assets/images/energy1.png'
 // import respiratory from '../assets/images/respiratory.png'
@@ -21,13 +21,13 @@ import energy_4 from '../../assets/images/pain.png'
 
 ];
 
-  const EnergyBooster = [
-    { id: "1", Image: energy, drug: "Diabetes Regulator Powder", price: "3000", },
-    { id: "2", Image: energy_2, drug: "Diabetes Regulator Powder", price: "3000", },
-    { id: "3", Image: energy_3, drug: "Diabetes Regulator Powder", price: "3000", },
-    { id: "4", Image: energy_4, drug: "Diabetes Regulator Powder", price: "3000", },
+//   const EnergyBooster = [
+//     { id: "1", Image: energy, drug: "Diabetes Regulator Powder", price: "3000", },
+//     { id: "2", Image: energy_2, drug: "Diabetes Regulator Powder", price: "3000", },
+//     { id: "3", Image: energy_3, drug: "Diabetes Regulator Powder", price: "3000", },
+//     { id: "4", Image: energy_4, drug: "Diabetes Regulator Powder", price: "3000", },
 
-];
+// ];
  
 const Products = () => {
 
@@ -72,7 +72,7 @@ const Products = () => {
 
             </div><br />
             <hr />
-            <div className="md:container px-11 mt-[5rem]">
+            {/* <div className="md:container px-11 mt-[5rem]">
                 <h2 className="text-[24px] mb-5">Energy Booster</h2>
                 <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-3">
                     {EnergyBooster.map((data) => {
@@ -106,7 +106,7 @@ const Products = () => {
                 </div>
                 <hr />
 
-            </div>
+            </div> */}
 
 
         </section>
