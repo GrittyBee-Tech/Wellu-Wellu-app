@@ -1,4 +1,4 @@
-// import React from 'react';
+
 import diabetics from '../assets/images/diabetes.png'
 import emphatic from '../assets/images/emphatic.png'
 import drip from '../assets/images/drip.png'
