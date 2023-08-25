@@ -2,7 +2,7 @@
 // import { EnergyBooster } from "../Datapage/Datapage";
 // import { PainRelief } from "../../../constant/data";
 import stars from "/src/assets/Icons/stars.png";
-import { EnergyBooster, PainRelief } from "../../../constant/data";
+import { EnergyBooster, PainRelief } from "../../constant/data";
 const Products = () => {
 
     return (
