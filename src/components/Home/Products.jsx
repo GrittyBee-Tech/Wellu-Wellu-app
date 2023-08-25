@@ -3,7 +3,7 @@ import stars from "../../assets/Icons/stars.png";
 // import { EnergyBooster, PainRelief } from "../../constant/data"; 
 import drip from '../../assets/images/drip.png'
 import orak from '../../assets/images/oral.png'
-// import energy from '../../assets/images/respiratory.png'
+import energy from '../../assets/images/respiratory.png'
 // import energy_2 from '../../assets/images/pain.png'
 // import energy_3 from '../../assets/images/pain.png'
 // import energy_4 from '../../assets/images/pain.png'
@@ -16,7 +16,7 @@ import orak from '../../assets/images/oral.png'
   const PainRelief = [
     { id: "1", Image: drip, drug: "Diabetes Regulator Powder", price: "3000", },
     { id: "2", Image: drip, drug: "Diabetes Regulator Powder", price: "3000", },
-    { id: "3", Image: drip, drug: "Diabetes Regulator Powder", price: "3000", },
+    { id: "3", Image: energy, drug: "Diabetes Regulator Powder", price: "3000", },
     { id: "4", Image: orak, drug: "Diabetes Regulator Powder", price: "3000", },
 
 ];
