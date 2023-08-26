@@ -1,19 +1,19 @@
  
 import stars from "../../assets/Icons/stars.png";
 // import { EnergyBooster, PainRelief } from "../../constant/data"; 
-import drip from '../../assets/images/drip.png'
-import orak from '../../assets/images/oral.png'
-import energy from '../../assets/images/respiratory.png'
-import energy_2 from '../../assets/images/pain.png'
-import energy_3 from '../../assets/images/pain.png'
-import energy_4 from '../../assets/images/pain.png'
-// import injury from '../assets/images/injury.png'
-// import energy_1 from '../assets/images/energy1.png'
-// import respiratory from '../../assets/images/respiratory.png'
-// import sti from '../assets/images/sti.png'
-// import diabetics from '../../assets/images/diabetes.png'
-// import emphatic from '../../assets/images/emphatic.png'
-// import pain from '../assets/images/pain.png'
+import drip from '../../assets/img/drip.png'
+import orak from '../../assets/img/oral.png'
+import energy from '../../assets/img/respiratory.png'
+import energy_2 from '../../assets/img/pain.png'
+import energy_3 from '../../assets/img/pain.png'
+import energy_4 from '../../assets/img/pain.png'
+// import injury from '../assets/img/injury.png'
+// import energy_1 from '../assets/img/energy1.png'
+// import respiratory from '../../assets/img/respiratory.png'
+// import sti from '../assets/img/sti.png'
+// import diabetics from '../../assets/img/diabetes.png'
+// import emphatic from '../../assets/img/emphatic.png'
+// import pain from '../assets/img/pain.png'
 
   const PainRelief = [
     { id: "1", Image: drip, drug: "Diabetes Regulator Powder", price: "3000", },

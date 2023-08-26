@@ -1,4 +1,4 @@
-import Image from "/src/assets/images/plants.png";
+import Image from "/src/assets/img/plants.png";
 import icon from "/src/assets/Icons/phone-icon.png";
 import icon1 from "/src/assets/Icons/Lock-icon.png";
 import icon2 from "/src/assets/Icons/check-icon.png";
