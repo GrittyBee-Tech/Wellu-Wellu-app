@@ -6,7 +6,7 @@ const Hero = () => {
 
     return (
         <section>
-            <div className="container-auto mt-[7rem] flex" >
+            <div className="container-auto mt-[7rem] md:flex" >
                 <div className="w-1/2 pt-11">
                     <h1 className="text-3xl font-bold text-[#447B02] text-[96px] leading-[120px]">Title Text</h1>
                     <p className="text-[24px] font-Mulish leading-8 text-[#2F2F2F]">Lorem ipsum dolor sit amet consectetur.
@@ -19,7 +19,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="md:container px-20 flex mt-11 gap-11 mb-[2rem]">
+            <div className="md:container px-20 md:flex mt-11 gap-11 mb-[2rem]">
                 <div className="flex gap-3 w-[236] h-[49]">
                     <div>
                         <img src={icon} alt="" />

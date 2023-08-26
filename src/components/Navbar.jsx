@@ -6,7 +6,7 @@ import Search from "./Search";
 import logo from "/src/assets/Icons/logo.png";
 const Navbar = () => {
     return (
-        <div className="shadow-md py-5">
+        <div className="shadow-md py-5 hidden md:block">
             <nav className="flex gap-[3rem] items-center justify-between container-auto m-auto ">
                 <div className="logo">
                     <img src={logo} alt="Logo" />
