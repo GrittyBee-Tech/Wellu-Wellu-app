@@ -3,7 +3,7 @@
 // import diabetics from '../assets/images/diabetes.png'
 // import emphatic from '../assets/images/emphatic.png'
 import drip from '../assets/images/drip.png'
-import orak from '../assets/images/orak.png'
+import oral from '../assets/images/oral.png'
 import energy from '../assets/images/energy2.png'
 import energy_2 from '../assets/images/energy3.png'
 import energy_3 from '../assets/images/energy5.png'
@@ -20,7 +20,7 @@ export const PainRelief = [
     { id: "1", Image: drip, drug: "Diabetes Regulator Powder", price: "3000", },
     { id: "2", Image: drip, drug: "Diabetes Regulator Powder", price: "3000", },
     { id: "3", Image: drip, drug: "Diabetes Regulator Powder", price: "3000", },
-    { id: "4", Image: orak, drug: "Diabetes Regulator Powder", price: "3000", },
+    { id: "4", Image: oral, drug: "Diabetes Regulator Powder", price: "3000", },
 
 ];
 

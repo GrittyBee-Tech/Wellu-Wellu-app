@@ -1,5 +1,5 @@
 import Hero from "../components/Home/Hero"
-// import TopCategories from "../components/Home/TopCategories"
+import TopCategories from "../components/Home/TopCategories"
 // import Services from "../components/Home/Services"
 // import Health from "../components/Home/Health"
 // import Testimonials from "../components/Home/Testimonials"
@@ -11,8 +11,8 @@ const Home = () => {
     <div>
         <Hero />
         <Products />
-        {/* <TopCategories />
-         <Health />
+        <TopCategories />
+        {/*  <Health />
        <Services />
         <Testimonials /> */}
     </div>
