@@ -11,7 +11,7 @@ const Health = () => {
 
       </div>
       <div className="md:mx-auto md:px-20 md:flex mt-20 px-5">
-        <div className="mt-44 hidden">
+        <div className="mt-44 md:block hidden">
           <img
             className="md:w-[519px] md:h-[390px] rounded-[16px] relative -right-20 flex-grow"
             src={healthPlant}
