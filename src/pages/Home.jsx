@@ -5,6 +5,7 @@ import Health from "../components/Home/Health"
 import Testimonials from "../components/Home/Testimonials"
 import Products from "../components/Home/Products"
 import Faqs from "../components/Home/Faq"
+import Director from "../components/Home/Director"
 
 
 const Home = () => {
@@ -14,7 +15,8 @@ const Home = () => {
         <Products />
         <TopCategories />
         <Health />
-       <Services />
+        <Services />
+       <Director />
         <Testimonials />  
         <Faqs />
     </div>

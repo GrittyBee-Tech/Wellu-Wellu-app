@@ -21,11 +21,11 @@ const Testimonials = () => {
           alt=""
         />
       </div>
-      <div className="mt-[8rem] ">
-        <h2 className="text-[36px] text-[#2F2F2F] text-center">
+      <div className="mt-[8rem] px-5">
+        <h2 className="text-[24px] md:text-[36px] text-[#2F2F2F] text-center">
           See what our customers have to say
         </h2>
-        <div className="flex space-x-20 justify-center mt-5 ">
+        <div className="md:flex md:space-x-20 justify-center mt-5 ">
           <div className="mt-[16px] items-center">
             <div className="absolute mb-[40px]">
               <img
@@ -34,7 +34,7 @@ const Testimonials = () => {
                 alt=""
               />
             </div>
-            <div className=" w-[233px] bg-[#ACC4AD] pb-5 rounded-[16px]">
+            <div className=" md:w-[233px] bg-[#ACC4AD] pb-5 rounded-[16px]">
               <h4 className="text-[32px] text-[#2F2F2F] font-medium text-center mt-[50px] pt-[70px]">
                 John Doe
               </h4>
@@ -63,7 +63,7 @@ const Testimonials = () => {
                 alt=""
               />
             </div>
-            <div className="  w-[233px] bg-[#C4ACAC] pb-5 rounded-[16px]">
+            <div className="  md:w-[233px] bg-[#C4ACAC] pb-5 rounded-[16px]">
               <h4 className="text-[32px] text-[#2F2F2F] font-medium text-center mt-[50px] pt-[70px]">
                 Mary Ann
               </h4>
@@ -92,9 +92,9 @@ const Testimonials = () => {
                 alt=""
               />
             </div>
-            <div className=" w-[233px] bg-[#C0C4AC]  rounded-[16px] pb-5">
+            <div className=" md:w-[233px] bg-[#C0C4AC] pb-5 rounded-[16px]">
               <h4 className="text-[32px] text-[#2F2F2F] font-medium text-center mt-[50px] pt-[70px]">
-                Sam Rick
+              Sam Rick
               </h4>
               <div className="ml-5">
                 <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,6 +113,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
+         
         </div>
         <div className="justify-center items-center flex py-[6rem]">
           <button className="text-[#FDFDFD] w-[175px] h-[48px] font-Mulish font-semibold rounded-md text-[20px] bg-[#447B02] text-center p-1">
@@ -120,7 +121,7 @@ const Testimonials = () => {
           </button>
         </div>
       </div>
-      <div className="absolute bottom-0">
+      <div className="absolute bottom-0 hidden md:block">
         <img
           className=" "
           src={testimonial}

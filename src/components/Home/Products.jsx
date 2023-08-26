@@ -35,20 +35,20 @@ const Products = () => {
 
     return (
         <section className="product-tab mt-[10rem]">
-            <div className="bg-[#447B02] p-3 flex items-center">
+            <div className="bg-[#447B02] p-3 flex md:items-center">
                 <div className="md:container px-4">
-                    <h3 className="text-tab-text  text-[32px] text-[#ffff] px-4 ">Top selling products</h3>
+                    <h3 className="text-tab-text  text-[24px] md:text-[32px] text-[#ffff] px-4 ">Top selling products</h3>
                 </div>
 
             </div>
 
-            <div className="px-11 mt-[5rem]">
+            <div className="md:px-11 mt-[5rem] px-5">
                 <h2 className="text-[24px] mb-5">Pain Reliefs</h2>
-                <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-3">
+                <div className="grid grid-cols-1 md:grid-cols-4 items-center justify-center gap-3">
                     {PainRelief.map((data) => {
                         const { id, Image, drug, price } = data;
                         return (
-                            <div className="border bg-[#FAFAFA] w-[302px] h-[25rem] flex flex-col justify-center px-5 " key={id}>
+                            <div className="border bg-[#FAFAFA] md:w-[302px] h-[25rem] flex flex-col justify-center px-5 " key={id}>
 
                                 <div className="w-6/12 mb-5"><img src={Image} className="w-full" /></div>
                                 <div className="flex gap-4 items-center justify-between">
@@ -63,8 +63,8 @@ const Products = () => {
                                     <p>10 Reviews</p>
                                 </div>
 
-                                <div className="mt-[3rem]">
-                                    <button className="bg-[#447B02] text-[#FFFF] text-[11px] rounded-md w-4/12 p-3">Add to Cart</button>
+                                <div className="mt-[3rem] m">
+                                    <button className="bg-[#447B02] text-[#FFFF] text-[11px] rounded-md md:w-4/12 p-3">Add to Cart</button>
                                 </div>
                             </div>
                         );
@@ -74,13 +74,13 @@ const Products = () => {
 
             </div><br />
             <hr />
-            <div className="px-11 mt-[5rem]">
+            <div className="md:px-11 mt-[5rem] px-5">
                 <h2 className="text-[24px] mb-5">Energy Booster</h2>
-                <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-3">
+                <div className="grid grid-cols-1 md:grid-cols-4 items-center justify-center gap-3">
                     {EnergyBooster.map((data) => {
                         const { id, Image, drug, price } = data;
                         return (
-                            <div className="border bg-[#FAFAFA] w-[302px] h-[25rem] flex flex-col justify-center py-[5rem] px-5 " key={id}>
+                            <div className="border bg-[#FAFAFA] md:w-[302px] h-[25rem] flex flex-col justify-center py-[5rem] px-5 " key={id}>
 
                                 <div className="w-6/12 mb-5"><img src={Image} className="w-full" /></div>
                                 <div className="flex gap-4 items-center justify-between">
@@ -96,7 +96,7 @@ const Products = () => {
                                 </div>
 
                                 <div className="mt-[3rem]">
-                                    <button className="bg-[#447B02] text-[#FFFF] text-[11px] rounded-md w-4/12 p-3">Add to Cart</button>
+                                    <button className="bg-[#447B02] text-[#FFFF] text-[11px] rounded-md md:w-4/12 p-3">Add to Cart</button>
                                 </div>
                             </div>
 
