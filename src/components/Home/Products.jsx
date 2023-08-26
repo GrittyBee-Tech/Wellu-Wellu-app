@@ -74,7 +74,7 @@ const Products = () => {
 
             </div><br />
             <hr />
-            <div className="container-auto mt-[5rem]">
+            <div className="px-11 mt-[5rem]">
                 <h2 className="text-[24px] mb-5">Energy Booster</h2>
                 <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-3">
                     {EnergyBooster.map((data) => {
