@@ -1,5 +1,5 @@
-// import healthPlant from "../../assets/images/health-plant.jpg";
-import testimonial from "../../assets/images/frame-128.png";
+// import healthPlant from "../../assets/img/health-plant.jpg";
+import healthPlant from "../../assets/images/plant-leave.png";
 
 const Health = () => {
   return (
@@ -10,11 +10,11 @@ const Health = () => {
         </div>
 
       </div>
-      <div className=" md:container  md:mx-auto px-20 md:flex mt-20">
+      <div className="md:mx-auto px-20 md:flex mt-20">
         <div className="mt-44">
           <img
             className="md:w-[519px] md:h-[390px] rounded-[16px] relative -right-20 flex-grow"
-            src={testimonial}
+            src={healthPlant}
           />
         </div>
         <div className="md:w-[733px] md:h-[602px] border-4 border-[#447B02] rounded-[24px] mt-10 pl-4">

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from "../assets/Icons/logo.png";
+import logo from "../assets/Icons/logo-footer.png";
 
 const Footer = () => {
   return (
@@ -39,6 +39,6 @@ const Footer = () => {
       </div>
     </div>
   )
-} 
+}
 
 export default Footer
