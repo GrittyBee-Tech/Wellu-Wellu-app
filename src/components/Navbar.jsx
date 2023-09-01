@@ -13,8 +13,8 @@ const Navbar = () => {
                 </div>
                 <ul className="flex gap-[2rem]">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/about">Product</a></li>
-                    <li><a href="/services">About Us</a></li>
+                    <li><a href="/services">Product</a></li>
+                    <li><a href="/about">About Us</a></li>
                     <li><a href="/contact">Contact Us</a></li>
                 </ul>
                 <div className="w-4/12">

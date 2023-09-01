@@ -6,6 +6,7 @@ import testimonial from "../../assets/images/frame-128.png";
 import test_check from '../../assets/images/frame-127.png'
 
 const Testimonials = () => {
+  const currentPathname = window.location.pathname;
   return (
     <div> <section className="relative">
       <div className="bg-[#447B02] p-3 flex items-center">
@@ -84,7 +85,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="mt-[16px] items-center">
+          <div className="mt-[16px] items-center mb-[6rem]">
             <div className="absolute mb-[40px]">
               <img
                 className="w-[120px] h-[120px] ml-[57px] rounded-[50%] relative  flex-grow"
@@ -94,7 +95,7 @@ const Testimonials = () => {
             </div>
             <div className=" md:w-[233px] bg-[#C0C4AC] pb-5 rounded-[16px]">
               <h4 className="text-[32px] text-[#2F2F2F] font-medium text-center mt-[50px] pt-[70px]">
-              Sam Rick
+                Sam Rick
               </h4>
               <div className="ml-5">
                 <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,13 +114,13 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-         
+
         </div>
-        <div className="justify-center items-center flex py-[6rem]">
+        {currentPathname === '/' && <div className="justify-center items-center flex pb-[6rem]">
           <button className="text-[#FDFDFD] w-[175px] h-[48px] font-Mulish font-semibold rounded-md text-[20px] bg-[#447B02] text-center p-1">
             See more
           </button>
-        </div>
+        </div>}
       </div>
       <div className="absolute bottom-0 hidden md:block">
         <img
