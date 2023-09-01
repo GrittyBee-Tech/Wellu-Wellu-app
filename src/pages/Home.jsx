@@ -6,6 +6,7 @@ import Testimonials from "../components/Home/Testimonials"
 import Products from "../components/Home/Products"
 import Faqs from "../components/Home/Faq"
 import Director from "../components/Home/Director"
+import CategoriesProduct from "../components/Home/CategoriesProduct"
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <Hero />
         <Products />
         <TopCategories />
+       <CategoriesProduct />
         <Health />
         <Services />
        <Director />
