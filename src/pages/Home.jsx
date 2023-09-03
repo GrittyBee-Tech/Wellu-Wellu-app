@@ -12,15 +12,15 @@ import CategoriesProduct from "../components/Home/CategoriesProduct"
 const Home = () => {
   return (
     <div>
-        <Hero />
-        <Products />
-        <TopCategories />
-       <CategoriesProduct />
-        <Health />
-        <Services />
-       <Director />
-        <Testimonials />  
-        <Faqs />
+      <Hero />
+      <Products />
+      <TopCategories />
+      <CategoriesProduct />
+      <Health />
+      <Services />
+      <Director />
+      <Testimonials />
+      <Faqs />
     </div>
   )
 }
