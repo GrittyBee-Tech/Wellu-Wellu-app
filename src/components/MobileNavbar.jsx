@@ -9,7 +9,7 @@ import logo from "/src/assets/Icons/logo.png";
 const MobileNavbar = ({ SetIsOpen }) => {
 
     return (
-        <nav className=" bg-[#447B02] h-screen flex-col sm:flex   gap-[9rem] items-center justify-between z-[2000] m-auto  p-10">
+        <nav className=" bg-[#447B02] h-screen flex-col sm:flex  w-[160%] gap-[9rem] items-center justify-between z-[2000] m-auto  p-10">
             <div className="logo flex justify-between gap-4 ">
                 <img src={logo} alt="Logo" />
                 <button onClick={() => SetIsOpen(false)} className="text-[40px] text-[#FFFF]">
