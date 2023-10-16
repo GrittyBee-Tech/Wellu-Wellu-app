@@ -44,9 +44,7 @@ const Navbar = () => {
                         <LoveIcon />
                     </div>
 
-                    <div>
-                        <CartIcon />
-                    </div>
+
                     <button onClick={toggleNavbar} className="sm:hidden text-[23px]">
                         <GiHamburgerMenu />
                     </button>
