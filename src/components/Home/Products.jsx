@@ -34,7 +34,7 @@ const EnergyBooster = [
 const Products = () => {
 
     return (
-        <section className="product-tab mt-[10rem]">
+        <section className="product-tab">
             <div className="bg-[#447B02] p-3 flex md:items-center">
                 <div className="md:container px-4">
                     <h3 className="text-tab-text  text-[24px] md:text-[32px] text-[#ffff] px-4 ">Top selling products</h3>
