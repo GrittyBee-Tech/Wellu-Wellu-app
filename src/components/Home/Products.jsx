@@ -72,17 +72,16 @@ const Products = () => {
                 </div>
 
 
-            </div><br />
-            <hr />
+            </div> 
             <div className="md:px-11 mt-[5rem] px-5">
                 <h2 className="text-[24px] mb-5">Energy Booster</h2>
-                <div className="grid grid-cols-1 md:grid-cols-4 items-center justify-center gap-3">
+                <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 items-center justify-center gap-3">
                     {EnergyBooster.map((data) => {
                         const { id, Image, drug, price } = data;
                         return (
-                            <div className="border bg-[#FAFAFA] md:w-[302px] h-[25rem] flex flex-col justify-center py-[5rem] px-5 " key={id}>
+                            <div className="border bg-[#FAFAFA] md:w-[302px] h-[29rem] flex flex-col justify-center py-[5rem] px-5 " key={id}>
 
-                                <div className="w-6/12 mb-5"><img src={Image} className="w-full" /></div>
+                                <div className="w-full mt-5 mb-5"><img src={Image} className="w-full" /></div>
                                 <div className="flex gap-4 items-center justify-between">
                                     <p className="text-[14px]">{drug}</p>
                                     <p className="text-[#447B02] flex gap-1 items-center"><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,8 +101,7 @@ const Products = () => {
 
                         );
                     })}
-                </div>
-                <hr />
+                </div> 
 
             </div>
 

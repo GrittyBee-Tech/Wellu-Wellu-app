@@ -5,7 +5,7 @@ import icon2 from "/src/assets/Icons/check-icon.png";
 const Hero = () => {
 
     return (
-        <section style={{background: 'linear-gradient(45deg, rgb(255, 255, 255), rgb(234 247 232), rgb(68, 123, 2))'}} >
+        <section className="pt-[5rem] pb-[5rem]" style={{background: 'linear-gradient(45deg, rgb(255, 255, 255), rgb(234 247 232), rgb(68, 123, 2))'}} >
             <div className="container-auto pt-[7rem] md:flex" >
                 <div className="md:w-1/2 pt-11">
                     <h1 className="text-3xl font-bold text-[#447B02] text-[50px] md:text-[80px] leading-[120px]">WELLU WELLU Wellness Centre </h1>

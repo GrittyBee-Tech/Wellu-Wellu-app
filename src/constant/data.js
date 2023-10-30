@@ -11,7 +11,7 @@ import energy_4 from '../assets/img/energy4.png'
 import injury from '../assets/img/injury.png'
 import energy_1 from '../assets/img/energy1.png'
 import respiratory from '../assets/img/respiratory.png'
-import sti from '../assets/img/sti.png'
+import sti from '../assets/img/hiv-aids.png'
 import pain from '../assets/img/pain.png'
 
 
